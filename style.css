@@ -173,19 +173,7 @@ main li {
     main ul {
         margin-left: 18px;
     }
-    #nav {
-        position: relative;
-        flex-wrap: nowrap;
-    }
-
-    #nav a {
-        margin-left: auto;
-        flex-shrink: 0;
-    }
-
-    #nav img {
-        flex-shrink: 0;
-    }
+    
 }
 /* ===== RESPONSIVE NAVBAR ===== */
 
@@ -237,3 +225,4 @@ h2 {
     margin-bottom: 15px;
     color: #222;          /* or your desired color */
 }
+
