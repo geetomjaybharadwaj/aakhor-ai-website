@@ -181,6 +181,31 @@ main li {
     main ul {
         margin-left: 18px;
     }
+    #header {
+        position: relative;
+    }
+
+    #nav {
+        position: relative;
+        flex-wrap: nowrap;
+    }
+
+    /* Mail link: remove from flex flow */
+    #nav a {
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        white-space: nowrap;
+    }
+
+    /* Slightly reduce email text */
+    #nav a span {
+        font-size: 13px;
+    }
 }
 /* ===== RESPONSIVE NAVBAR ===== */
 
@@ -232,15 +257,5 @@ h2 {
     margin-bottom: 15px;
     color: #222;          /* or your desired color */
 }
-@media (max-width: 600px) {
-    #nav  {
-       flex-wrap: nowrap;
-    }
-    #nav a span{
-        display: none;
 
-    #nav img {
-        flex-shrink:0;     
-    }
 
-}
