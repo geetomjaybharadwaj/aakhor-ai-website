@@ -181,31 +181,18 @@ main li {
     main ul {
         margin-left: 18px;
     }
-    #header {
-        position: relative;
-    }
-
     #nav {
-        position: relative;
-        flex-wrap: nowrap;
+        flex-wrap: nowrap;          /* force single line */
     }
 
-    /* Mail link: remove from flex flow */
-    #nav a {
-        position: absolute;
-        right: 16px;
-        top: 50%;
-        transform: translateY(-50%);
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        white-space: nowrap;
-    }
-
-    /* Slightly reduce email text */
     #nav a span {
-        font-size: 13px;
+        display: none;              /* hide email text */
     }
+
+    #nav img {
+        flex-shrink: 0;
+    }
+   
 }
 /* ===== RESPONSIVE NAVBAR ===== */
 
@@ -257,5 +244,6 @@ h2 {
     margin-bottom: 15px;
     color: #222;          /* or your desired color */
 }
+
 
 
