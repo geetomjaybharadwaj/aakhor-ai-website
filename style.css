@@ -232,3 +232,15 @@ h2 {
     margin-bottom: 15px;
     color: #222;          /* or your desired color */
 }
+/* ===== FIX NAV EMAIL SHIFT ON MOBILE ===== */
+
+@media (max-width: 600px) {
+    #nav a {
+        white-space: nowrap;      /* prevents line break */
+        flex-shrink: 0;
+    }
+
+    #nav a span {
+        font-size: 13px;          /* slightly smaller for mobile */
+    }
+}
