@@ -233,12 +233,14 @@ h2 {
     color: #222;          /* or your desired color */
 }
 @media (max-width: 600px) {
-    #nav a {
-        white-space: nowrap;      /* prevents line break */
-        flex-shrink: 0;
+    #nav  {
+       flex-wrap: nowrap;
+    }
+    #nav a span{
+        display: none;
+
+    #nav img {
+        flex-shrink:0;     
     }
 
-    #nav a span {
-        font-size: 13px;          /* slightly smaller for mobile */
-    }
 }
