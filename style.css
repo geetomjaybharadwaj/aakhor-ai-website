@@ -180,19 +180,7 @@ main li {
 
     main ul {
         margin-left: 18px;
-    }
-    #nav {
-        flex-wrap: nowrap;          /* force single line */
-    }
-
-    #nav a span {
-        display: none;              /* hide email text */
-    }
-
-    #nav img {
-        flex-shrink: 0;
-    }
-   
+    }   
 }
 /* ===== RESPONSIVE NAVBAR ===== */
 
@@ -244,6 +232,7 @@ h2 {
     margin-bottom: 15px;
     color: #222;          /* or your desired color */
 }
+
 
 
 
